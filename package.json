@@ -1,0 +1,25 @@
+{
+  "name": "scripture-language-support",
+  "displayName": "scripture-language-support",
+  "description": "Enables use of 'scripture' language in VS Code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "scripture",
+      "aliases": ["Scripture", "scripture"],
+      "extensions": [".bible",".codex",".scripture"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "scripture",
+      "scopeName": "source.scripture",
+      "path": "./syntaxes/scripture.tmLanguage.json"
+    }]
+  }
+}
