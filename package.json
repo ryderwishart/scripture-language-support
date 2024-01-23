@@ -3,6 +3,7 @@
 	"displayName": "scripture-language-support",
 	"description": "Enables use of 'scripture' language in VS Code",
 	"version": "0.0.1",
+	"publisher": "project-accelerate",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ryderwishart/scripture-language-support.git"
