@@ -4,6 +4,10 @@
 	"patterns": [
 		{
 			"include": "#keywords"
+		},
+		{
+			"match": ".*<range>$",
+			"name": "comment.line.range.scripture"
 		}
 	],
 	"repository": {

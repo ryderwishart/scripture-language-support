@@ -1,9 +1,13 @@
 {
 	"name": "scripture-language-support",
 	"displayName": "scripture-language-support",
-	"description": "Enables use of 'scripture' language in VS Code",
-	"version": "0.0.3",
+	"description": "Enables use of 'scripture' language in Codex Scripture Editor",
+	"version": "0.0.5",
 	"publisher": "project-accelerate",
+	"keywords": [
+		"scripture",
+		"codex-scripture-editor"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ryderwishart/scripture-language-support.git"
